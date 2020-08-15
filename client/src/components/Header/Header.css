@@ -1,4 +1,43 @@
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  background: rgb(218, 217, 217);
 }
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  background: white;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20em;
+}
+
+#navbar ul li:hover {
+  background: rgb(202, 202, 202);
+  cursor: pointer;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*#navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#navbar > div {
+  justify-self: center;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(112, 112, 112);
+}
+
+#navbar > div:hover {
+  background: rgb(78, 59, 59);
+  cursor: pointer;
+}*/
