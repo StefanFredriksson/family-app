@@ -1,0 +1,23 @@
+.movie-poster {
+  display: grid;
+  grid-template-columns: repeat(1, 15em);
+}
+
+.movie-poster:hover {
+  cursor: pointer;
+  background: grey;
+}
+
+.movie-poster a > img {
+  width: 15em;
+}
+
+.movie-poster a {
+  text-decoration: none;
+}
+
+.movie-poster a > label {
+  justify-self: center;
+  font-weight: bold;
+  font-size: 25px;
+}
